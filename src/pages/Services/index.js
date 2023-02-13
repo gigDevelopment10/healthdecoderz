@@ -25,7 +25,7 @@ const ServicesPage = () => {
                 as="h2"
                 variant="h2"
               >
-                FirstBank
+                MediSecure
               </Text>
             </div>
             <div className="flex flex-col items-start justify-start mb-[334px] w-[100%]">
@@ -48,7 +48,7 @@ const ServicesPage = () => {
                   </Text>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="common-pointer flex flex-col items-start justify-start p-[17px] w-[100%]"
                 onClick={() => navigate("/transaction")}
               >
@@ -66,7 +66,7 @@ const ServicesPage = () => {
                     Transactions
                   </Text>
                 </div>
-              </div>
+              </div> */}
               <div
                 className="common-pointer flex flex-col items-start justify-start p-[17px] w-[100%]"
                 onClick={() => navigate("/accounts")}
@@ -101,7 +101,7 @@ const ServicesPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Investments
+                    Funds
                   </Text>
                 </div>
               </div>
@@ -120,7 +120,7 @@ const ServicesPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Credit Cards
+                    Doctors
                   </Text>
                 </div>
               </div>
@@ -259,7 +259,7 @@ const ServicesPage = () => {
               />
             </Button>
             <Img
-              src="images/img_ellipse1.png"
+              src="images/Zoya.png"
               className="h-[60px] md:h-[auto] sm:h-[auto] md:ml-[0] sm:ml-[0] ml-[35px] rounded-radius50 w-[60px]"
               alt="EllipseOne"
             />

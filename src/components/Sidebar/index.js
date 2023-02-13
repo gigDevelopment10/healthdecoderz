@@ -8,17 +8,17 @@ const Sidebar = (props) => {
       <aside className={props.className}>
         <div className="bg-white_A700 border border-gray_300 border-solid flex flex-col md:gap-[40px] sm:gap-[40px] gap-[67px] items-center justify-start sm:pr-[20px] pr-[30px] py-[30px] w-[100%]">
           <div className="flex flex-row items-center justify-center md:w-[100%] sm:w-[100%] w-[74%]">
-            <Img
+            {/* <Img
               src="images/img_logo.png"
               className="h-[40px] md:h-[auto] sm:h-[auto] object-cover w-[40px]"
               alt="LOGO"
-            />
+            /> */}
             <Text
               className="font-bold font-inter ml-[4px] text-indigo_600 text-left w-[auto]"
               as="h2"
               variant="h2"
             >
-              FirstBank
+              MediSecure
             </Text>
           </div>
           <div className="flex flex-col gap-[23px] justify-start mb-[294px] md:w-[100%] sm:w-[100%] w-[92%]">
@@ -76,7 +76,7 @@ const Sidebar = (props) => {
                   as="h5"
                   variant="h5"
                 >
-                  Investments
+                  Funds
                 </Text>
               </div>
               <div className="flex flex-row gap-[20px] items-center justify-start mt-[41px] md:w-[100%] sm:w-[100%] w-[96%]">
@@ -90,7 +90,7 @@ const Sidebar = (props) => {
                   as="h5"
                   variant="h5"
                 >
-                  Credit Cards
+                  Doctors
                 </Text>
               </div>
               <div className="flex flex-row gap-[20px] items-center justify-start mt-[39px] md:w-[100%] sm:w-[100%] w-[61%]">

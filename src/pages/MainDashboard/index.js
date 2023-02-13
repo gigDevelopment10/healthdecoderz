@@ -14,11 +14,11 @@ const MainDashboardPage = () => {
       <div className="bg-gray_100 flex md:flex-col sm:flex-col flex-row font-inter md:gap-[20px] sm:gap-[20px] items-start mx-[auto] pb-[30px] w-[100%]">
         <aside className="flex flex-col md:hidden sm:hidden md:px-[20px] sm:px-[20px] w-[250px]">
           <div className="flex flex-col gap-[50px] items-center justify-start mb-[364px] mt-[30px] w-[100%]">
-            <Img
+            {/* <Img
               src="images/img_logo.png"
               className="h-[40px] md:h-[auto] sm:h-[auto] object-cover sm:w-[100%] w-[65%]"
               alt="Logo"
-            />
+            /> */}
             <div className="flex flex-col items-start justify-start w-[100%]">
               <div className="flex flex-row gap-[34px] items-center justify-start md:w-[100%] sm:w-[100%] w-[72%]">
                 <Line className="bg-indigo_600 h-[60px] rounded-bl-[0] rounded-br-[10px] rounded-tl-[0] rounded-tr-[10px] w-[6px]" />
@@ -37,7 +37,7 @@ const MainDashboardPage = () => {
                   </Text>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="common-pointer flex flex-col items-start justify-start p-[17px] w-[100%]"
                 onClick={() => navigate("/transaction")}
               >
@@ -55,7 +55,7 @@ const MainDashboardPage = () => {
                     Transactions
                   </Text>
                 </div>
-              </div>
+              </div> */}
               <div
                 className="common-pointer flex flex-col items-start justify-start p-[17px] w-[100%]"
                 onClick={() => navigate("/accounts")}
@@ -71,7 +71,7 @@ const MainDashboardPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Accounts
+                    Reports
                   </Text>
                 </div>
               </div>
@@ -109,7 +109,7 @@ const MainDashboardPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Credit Cards
+                    Doctors
                   </Text>
                 </div>
               </div>
@@ -250,7 +250,7 @@ const MainDashboardPage = () => {
               />
             </Button>
             <Img
-              src="images/img_ellipse1.png"
+              src="images/Zoya.png"
               className="h-[60px] md:h-[auto] sm:h-[auto] md:ml-[0] sm:ml-[0] ml-[35px] rounded-radius50 w-[60px]"
               alt="EllipseOne"
             />
@@ -765,7 +765,7 @@ const MainDashboardPage = () => {
                     >
                       <div className="flex flex-col gap-[15px] items-center justify-start sm:ml-[0] w-[100%]">
                         <Img
-                          src="images/img_ellipse18.png"
+                          src="images/DoctorP.jpg"
                           className="h-[70px] md:h-[auto] sm:h-[auto] rounded-radius50 w-[70px]"
                           alt="EllipseEighteen"
                         />
@@ -807,7 +807,7 @@ const MainDashboardPage = () => {
                       </div>
                       <div className="flex flex-col gap-[15px] items-center justify-start sm:ml-[0] w-[100%]">
                         <Img
-                          src="images/img_ellipse17.png"
+                          src="images/DoctorG.jpg"
                           className="h-[70px] md:h-[auto] sm:h-[auto] rounded-radius50 w-[70px]"
                           alt="EllipseSeventeen"
                         />

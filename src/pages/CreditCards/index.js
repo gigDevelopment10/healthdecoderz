@@ -25,7 +25,7 @@ const CreditCardsPage = () => {
                 as="h2"
                 variant="h2"
               >
-                FirstBank
+                MediSecure
               </Text>
             </div>
             <div className="flex flex-col items-start justify-start w-[100%]">
@@ -48,7 +48,7 @@ const CreditCardsPage = () => {
                   </Text>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="common-pointer flex flex-col items-start justify-start p-[17px] w-[100%]"
                 onClick={() => navigate("/transaction")}
               >
@@ -66,7 +66,7 @@ const CreditCardsPage = () => {
                     Transactions
                   </Text>
                 </div>
-              </div>
+              </div> */}
               <div
                 className="common-pointer flex flex-col items-start justify-start p-[17px] w-[100%]"
                 onClick={() => navigate("/accounts")}
@@ -82,7 +82,7 @@ const CreditCardsPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Accounts
+                    Reports
                   </Text>
                 </div>
               </div>
@@ -101,7 +101,7 @@ const CreditCardsPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Investments
+                    Funds
                   </Text>
                 </div>
               </div>
@@ -118,7 +118,7 @@ const CreditCardsPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Credit Cards
+                    Doctors
                   </Text>
                 </div>
               </div>
@@ -205,7 +205,7 @@ const CreditCardsPage = () => {
               as="h1"
               variant="h1"
             >
-              Credit Cards
+              Doctors
             </Text>
             <Input
               value={inputvalue}
@@ -259,13 +259,13 @@ const CreditCardsPage = () => {
               />
             </Button>
             <Img
-              src="images/img_ellipse1.png"
+              src="images/Zoya.png"
               className="h-[60px] md:h-[auto] sm:h-[auto] md:ml-[0] sm:ml-[0] ml-[35px] rounded-radius50 w-[60px]"
               alt="EllipseOne"
             />
           </div>
           <div className="flex flex-col items-center justify-start md:w-[100%] sm:w-[100%] w-[94%]">
-            <div className="flex flex-col gap-[19px] items-start justify-start w-[100%]">
+            {/* <div className="flex flex-col gap-[19px] items-start justify-start w-[100%]">
               <Text
                 className="text-bluegray_900 text-left w-[auto]"
                 as="h3"
@@ -491,7 +491,7 @@ const CreditCardsPage = () => {
                   ></Input>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="flex md:flex-col sm:flex-col flex-row gap-[30px] items-center justify-between mt-[25px] w-[100%]">
               <div className="flex md:flex-1 sm:flex-1 flex-col gap-[20px] items-start justify-start md:w-[100%] sm:w-[100%] w-[auto]">
                 <Text
@@ -499,7 +499,7 @@ const CreditCardsPage = () => {
                   as="h3"
                   variant="h3"
                 >
-                  Card Expense Statistics
+                  My Doctors
                 </Text>
                 <div className="bg-white_A700 flex flex-col gap-[16px] items-center justify-end p-[28px] sm:px-[20px] rounded-radius25 w-[100%]">
                   <Img
@@ -518,7 +518,7 @@ const CreditCardsPage = () => {
                           className="font-medium text-bluegray_400 text-left w-[auto]"
                           variant="body2"
                         >
-                          DBL Bank
+                          Dr. Anjali
                         </Text>
                       </div>
                       <div className="flex flex-row gap-[12px] items-start justify-start w-[auto]">
@@ -527,7 +527,7 @@ const CreditCardsPage = () => {
                           className="font-medium text-bluegray_400 text-left w-[auto]"
                           variant="body2"
                         >
-                          BRC Bank
+                          Dr. Kumar
                         </Text>
                       </div>
                     </div>
@@ -538,7 +538,7 @@ const CreditCardsPage = () => {
                           className="font-medium text-bluegray_400 text-left w-[auto]"
                           variant="body2"
                         >
-                          ABM Bank
+                          Dr. Vinay
                         </Text>
                       </div>
                       <div className="flex flex-row gap-[12px] items-start justify-start w-[auto]">
@@ -547,7 +547,7 @@ const CreditCardsPage = () => {
                           className="font-medium text-bluegray_400 text-left w-[auto]"
                           variant="body2"
                         >
-                          MCP Bank
+                          Dr. Sanjay
                         </Text>
                       </div>
                     </div>
@@ -560,7 +560,7 @@ const CreditCardsPage = () => {
                   as="h3"
                   variant="h3"
                 >
-                  Card List
+                  Prescription
                 </Text>
                 <List
                   className="flex-col gap-[20px] grid items-center w-[100%]"
@@ -584,13 +584,13 @@ const CreditCardsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Card Type
+                        Dr. Anjali
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        Secondary
+                        MBBs, MD
                       </Text>
                     </div>
                     <div className="flex md:flex-1 sm:flex-1 flex-col gap-[7px] items-start justify-start md:ml-[0] sm:ml-[0] ml-[43px] md:w-[100%] sm:w-[100%] w-[11%]">
@@ -598,13 +598,13 @@ const CreditCardsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Bank
+                        Dec 22
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        DBL Bank
+                        3 months ago
                       </Text>
                     </div>
                     <div className="flex md:flex-1 sm:flex-1 flex-col gap-[7px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[44px] md:w-[100%] sm:w-[100%] w-[17%]">
@@ -639,7 +639,7 @@ const CreditCardsPage = () => {
                       className="font-medium md:ml-[0] sm:ml-[0] ml-[34px] text-indigo_500 text-left w-[auto]"
                       variant="body2"
                     >
-                      View Details
+                      View Report
                     </Text>
                   </div>
                   <div className="bg-white_A700 flex flex-1 md:flex-col sm:flex-col flex-row md:gap-[20px] sm:gap-[20px] items-center justify-start p-[15px] rounded-radius20 w-[100%]">
@@ -715,7 +715,7 @@ const CreditCardsPage = () => {
                       className="font-medium md:ml-[0] sm:ml-[0] ml-[34px] text-indigo_500 text-left w-[auto]"
                       variant="body2"
                     >
-                      View Details
+                      View Report
                     </Text>
                   </div>
                   <div className="bg-white_A700 flex flex-1 md:flex-col sm:flex-col flex-row md:gap-[20px] sm:gap-[20px] items-center justify-start p-[15px] rounded-radius20 w-[100%]">
@@ -791,7 +791,7 @@ const CreditCardsPage = () => {
                       className="font-medium md:ml-[0] sm:ml-[0] ml-[34px] text-indigo_500 text-left w-[auto]"
                       variant="body2"
                     >
-                      View Details
+                      View Report
                     </Text>
                   </div>
                 </List>
@@ -804,17 +804,17 @@ const CreditCardsPage = () => {
                   as="h3"
                   variant="h3"
                 >
-                  Add New Card
+                  Add New Prescription
                 </Text>
                 <div className="bg-white_A700 flex flex-col items-start justify-start p-[27px] sm:px-[20px] rounded-radius25 w-[100%]">
                   <Text
                     className="font-normal leading-[28.00px] md:ml-[0] sm:ml-[0] ml-[3px] not-italic text-bluegray_400 text-left sm:w-[100%] w-[94%]"
                     variant="body1"
                   >
-                    Credit Card generally means a plastic card issued by
-                    Scheduled Commercial Banks assigned to a Cardholder, with a
-                    credit limit, that can be used to purchase goods and
-                    services on credit or obtain cash advances.
+                    E-Prescription issued by docotors / Hospitals / Clinics can be 
+                    accessed with UID issued by the government of India.
+                    By providing your unique ID, you provide the permission to accesses
+                    your prescription.
                   </Text>
                   <div className="flex md:flex-col sm:flex-col flex-row gap-[30px] items-center justify-between md:ml-[0] sm:ml-[0] ml-[3px] mt-[29px] rounded-radius15 w-[100%]">
                     <div className="flex md:flex-1 sm:flex-1 flex-col gap-[11px] items-start justify-start rounded-radius15 md:w-[100%] sm:w-[100%] w-[auto]">
@@ -822,7 +822,7 @@ const CreditCardsPage = () => {
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body1"
                       >
-                        Card Type
+                        Prescription Issuer
                       </Text>
                       <Input
                         className="font-normal leading-[normal] not-italic p-[0] text-[15px] placeholder:text-bluegray_900 text-bluegray_900 text-left w-[100%]"
@@ -836,13 +836,13 @@ const CreditCardsPage = () => {
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body1"
                       >
-                        Name On Card
+                        Prescription UIC
                       </Text>
                       <Input
                         className="font-normal leading-[normal] not-italic p-[0] text-[15px] placeholder:text-bluegray_900 text-bluegray_900 text-left w-[100%]"
                         wrapClassName="w-[100%]"
                         name="Group195 One"
-                        placeholder="My Cards"
+                        placeholder="*** *** *** ***"
                       ></Input>
                     </div>
                   </div>
@@ -852,7 +852,7 @@ const CreditCardsPage = () => {
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body1"
                       >
-                        Card Number
+                        Patient UID
                       </Text>
                       <Input
                         className="font-normal leading-[normal] not-italic p-[0] text-[15px] placeholder:text-bluegray_900 text-bluegray_900 text-left w-[100%]"
@@ -868,7 +868,7 @@ const CreditCardsPage = () => {
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body1"
                       >
-                        Expiration Date
+                        Set Expiration Date
                       </Text>
                       <SelectBox
                         className="font-normal leading-[normal] not-italic text-[15px] text-bluegray_900 text-left w-[100%]"
@@ -897,7 +897,7 @@ const CreditCardsPage = () => {
                   </Button>
                 </div>
               </div>
-              <div className="flex md:flex-1 sm:flex-1 flex-col gap-[20px] items-start justify-start md:w-[100%] sm:w-[100%] w-[auto]">
+              {/* <div className="flex md:flex-1 sm:flex-1 flex-col gap-[20px] items-start justify-start md:w-[100%] sm:w-[100%] w-[auto]">
                 <Text
                   className="text-bluegray_900 text-left w-[auto]"
                   as="h3"
@@ -1050,7 +1050,7 @@ const CreditCardsPage = () => {
                     </div>
                   </div>
                 </List>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

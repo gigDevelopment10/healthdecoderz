@@ -25,7 +25,7 @@ const InvestmentsPage = () => {
                 as="h2"
                 variant="h2"
               >
-                FirstBank
+                MediSecure
               </Text>
             </div>
             <div className="flex flex-col items-start justify-start mb-[334px] w-[100%]">
@@ -48,7 +48,7 @@ const InvestmentsPage = () => {
                   </Text>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="common-pointer flex flex-col items-start justify-start p-[17px] w-[100%]"
                 onClick={() => navigate("/transaction")}
               >
@@ -66,7 +66,7 @@ const InvestmentsPage = () => {
                     Transactions
                   </Text>
                 </div>
-              </div>
+              </div> */}
               <div
                 className="common-pointer flex flex-col items-start justify-start p-[17px] w-[100%]"
                 onClick={() => navigate("/accounts")}
@@ -99,7 +99,7 @@ const InvestmentsPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Investments
+                    Funds
                   </Text>
                 </div>
               </div>
@@ -118,7 +118,7 @@ const InvestmentsPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Credit Cards
+                    Doctors
                   </Text>
                 </div>
               </div>
@@ -205,7 +205,7 @@ const InvestmentsPage = () => {
               as="h1"
               variant="h1"
             >
-              Investments
+              Funds
             </Text>
             <Input
               value={inputvalue}
@@ -259,7 +259,7 @@ const InvestmentsPage = () => {
               />
             </Button>
             <Img
-              src="images/img_ellipse1.png"
+              src="images/Zoya.png"
               className="h-[60px] md:h-[auto] sm:h-[auto] md:ml-[0] sm:ml-[0] ml-[35px] rounded-radius50 w-[60px]"
               alt="EllipseOne"
             />
@@ -287,14 +287,14 @@ const InvestmentsPage = () => {
                       className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body1"
                     >
-                      Total Invested Amount
+                      Funds Collected
                     </Text>
                     <Text
                       className="font-semibold text-indigo_600 text-left w-[auto]"
                       as="h4"
                       variant="h4"
                     >
-                      $150,000
+                      INR. 150,000
                     </Text>
                   </div>
                 </div>
@@ -317,14 +317,14 @@ const InvestmentsPage = () => {
                       className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body1"
                     >
-                      Number of Investments
+                      Total Companies
                     </Text>
                     <Text
                       className="font-semibold text-indigo_600 text-left w-[auto]"
                       as="h4"
                       variant="h4"
                     >
-                      1,250
+                      12
                     </Text>
                   </div>
                 </div>
@@ -347,7 +347,7 @@ const InvestmentsPage = () => {
                       className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body1"
                     >
-                      Rate of Return
+                      Expected Gains
                     </Text>
                     <Text
                       className="font-semibold text-indigo_600 text-left w-[auto]"
@@ -370,7 +370,7 @@ const InvestmentsPage = () => {
                   as="h3"
                   variant="h3"
                 >
-                  Yearly Total Investment
+                  Yearly Funding
                 </Text>
                 <div className="bg-white_A700 flex flex-col items-center justify-start p-[26px] sm:px-[20px] rounded-radius25 w-[100%]">
                   <div className="flex sm:flex-col flex-row gap-[9px] items-start justify-start mb-[2px] md:w-[100%] sm:w-[100%] w-[99%]">
@@ -574,7 +574,7 @@ const InvestmentsPage = () => {
                   as="h3"
                   variant="h3"
                 >
-                  My Investment
+                  Research Companies
                 </Text>
                 <List
                   className="flex-col gap-[15px] grid items-center w-[100%]"
@@ -594,13 +594,13 @@ const InvestmentsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Apple Store
+                        Apple Medical Inc.
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        E-commerce, Marketplace
+                        Neuroscience, Oncology
                       </Text>
                     </div>
                     <div className="flex sm:flex-1 flex-col gap-[7px] items-start justify-start sm:ml-[0] ml-[56px] sm:w-[100%] w-[22%]">
@@ -614,7 +614,7 @@ const InvestmentsPage = () => {
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        Envestment Value
+                        Funds Received
                       </Text>
                     </div>
                     <div className="flex sm:flex-1 flex-col gap-[7px] items-start justify-start sm:ml-[0] ml-[44px] sm:w-[100%] w-[16%]">
@@ -622,13 +622,13 @@ const InvestmentsPage = () => {
                         className="font-medium text-green_600 text-left w-[auto]"
                         variant="body1"
                       >
-                        +16%
+                        Accepted
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        Return Value
+                        Shared
                       </Text>
                     </div>
                   </div>
@@ -650,13 +650,13 @@ const InvestmentsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Samsung Mobile
+                        Google Medical Inc.
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        E-commerce, Marketplace
+                        Hematology, Detmatology
                       </Text>
                     </div>
                     <div className="flex sm:flex-1 flex-col gap-[7px] items-start justify-start sm:ml-[0] ml-[56px] sm:w-[100%] w-[22%]">
@@ -670,7 +670,7 @@ const InvestmentsPage = () => {
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        Envestment Value
+                        Funds proposed
                       </Text>
                     </div>
                     <div className="flex sm:flex-1 flex-col gap-[7px] items-start justify-start sm:ml-[0] ml-[44px] sm:w-[100%] w-[16%]">
@@ -678,13 +678,13 @@ const InvestmentsPage = () => {
                         className="font-medium text-left text-red_700 w-[auto]"
                         variant="body1"
                       >
-                        -4%
+                        Denied
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        Return Value
+                        Not Shared
                       </Text>
                     </div>
                   </div>
@@ -706,13 +706,13 @@ const InvestmentsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Tesla Motors
+                        Tesla Pvt. Ltd.
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        Electric Vehicles
+                        Dermatology
                       </Text>
                     </div>
                     <div className="flex sm:flex-1 flex-col gap-[7px] items-start justify-start sm:ml-[0] ml-[127px] sm:w-[100%] w-[22%]">
@@ -726,7 +726,7 @@ const InvestmentsPage = () => {
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        Envestment Value
+                        Funds Received
                       </Text>
                     </div>
                     <div className="flex sm:flex-1 flex-col gap-[7px] items-start justify-start sm:ml-[0] ml-[44px] sm:w-[100%] w-[16%]">
@@ -734,13 +734,13 @@ const InvestmentsPage = () => {
                         className="font-medium text-green_600 text-left w-[auto]"
                         variant="body1"
                       >
-                        +25%
+                        Accepted
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        Return Value
+                        Shared
                       </Text>
                     </div>
                   </div>
@@ -752,7 +752,7 @@ const InvestmentsPage = () => {
                   as="h3"
                   variant="h3"
                 >
-                  Trending Stock
+                  Intrested Research companies 
                 </Text>
                 <div className="bg-white_A700 flex flex-col gap-[13px] items-start justify-end p-[25px] sm:px-[20px] rounded-radius25 w-[100%]">
                   <div className="flex flex-col gap-[8px] items-start justify-start md:ml-[0] sm:ml-[0] ml-[5px] mt-[2px] md:w-[100%] sm:w-[100%] w-[98%]">
@@ -779,7 +779,7 @@ const InvestmentsPage = () => {
                         className="font-medium ml-[65px] text-bluegray_400 text-left w-[auto]"
                         variant="body1"
                       >
-                        Return
+                        ROI
                       </Text>
                     </div>
                     <Line className="bg-gray_103 h-[1px] w-[100%]" />
@@ -799,7 +799,7 @@ const InvestmentsPage = () => {
                         className="font-normal not-italic text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Trivago
+                        Novartis
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_900 text-left w-[auto]"
@@ -851,7 +851,7 @@ const InvestmentsPage = () => {
                         className="font-normal not-italic text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Uber Food
+                        Bristol
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_900 text-left w-[auto]"
@@ -877,7 +877,7 @@ const InvestmentsPage = () => {
                         className="font-normal ml-[57px] not-italic text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Nokia
+                        Pfizer
                       </Text>
                       <Text
                         className="font-normal ml-[88px] not-italic text-bluegray_900 text-left w-[auto]"
@@ -903,7 +903,7 @@ const InvestmentsPage = () => {
                         className="font-normal ml-[58px] not-italic text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Tiktok
+                        Nexa
                       </Text>
                       <Text
                         className="font-normal ml-[84px] not-italic text-bluegray_900 text-left w-[auto]"

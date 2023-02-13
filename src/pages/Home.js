@@ -13,17 +13,17 @@ const Home = () => {
         <li>
           <Link to="/">MainDashboard</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/transaction">Transaction</Link>
+        </li> */}
+        <li>
+          <Link to="/accounts">Reports</Link>
         </li>
         <li>
-          <Link to="/accounts">Accounts</Link>
+          <Link to="/investments">Funds</Link>
         </li>
         <li>
-          <Link to="/investments">Investments</Link>
-        </li>
-        <li>
-          <Link to="/creditcards">CreditCards</Link>
+          <Link to="/creditcards">Doctors</Link>
         </li>
         <li>
           <Link to="/loan">Loan</Link>

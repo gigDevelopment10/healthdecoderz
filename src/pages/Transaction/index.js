@@ -27,7 +27,7 @@ const TransactionPage = () => {
                 as="h2"
                 variant="h2"
               >
-                FirstBank
+                MediSecure
               </Text>
             </div>
             <div className="flex flex-col items-start justify-start mb-[334px] w-[100%]">
@@ -63,7 +63,7 @@ const TransactionPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Transactions
+                    Transactionsx
                   </Text>
                 </div>
               </div>
@@ -101,7 +101,7 @@ const TransactionPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Investments
+                    Funds
                   </Text>
                 </div>
               </div>
@@ -120,7 +120,7 @@ const TransactionPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Credit Cards
+                    Doctors
                   </Text>
                 </div>
               </div>

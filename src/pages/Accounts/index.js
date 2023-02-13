@@ -25,7 +25,7 @@ const AccountsPage = () => {
                 as="h2"
                 variant="h2"
               >
-                FirstBank
+                MediSecure
               </Text>
             </div>
             <div className="flex flex-col items-start justify-start mb-[334px] w-[100%]">
@@ -48,7 +48,7 @@ const AccountsPage = () => {
                   </Text>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="common-pointer flex flex-col items-start justify-start p-[17px] w-[100%]"
                 onClick={() => navigate("/transaction")}
               >
@@ -66,7 +66,7 @@ const AccountsPage = () => {
                     Transactions
                   </Text>
                 </div>
-              </div>
+              </div> */}
               <div className="flex flex-row gap-[34px] items-center justify-start md:w-[100%] sm:w-[100%] w-[67%]">
                 <Line className="bg-indigo_600 h-[60px] rounded-bl-[0] rounded-br-[10px] rounded-tl-[0] rounded-tr-[10px] w-[6px]" />
                 <div className="flex flex-row gap-[20px] items-start justify-start w-[77%]">
@@ -80,7 +80,7 @@ const AccountsPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Report Synopses
+                    Report
                   </Text>
                 </div>
               </div>
@@ -99,7 +99,7 @@ const AccountsPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Investments
+                    Funds
                   </Text>
                 </div>
               </div>
@@ -118,7 +118,7 @@ const AccountsPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Credit Cards
+                    Doctors
                   </Text>
                 </div>
               </div>
@@ -205,7 +205,7 @@ const AccountsPage = () => {
               as="h1"
               variant="h1"
             >
-              Report Synopsis
+              Report 
             </Text>
             <Input
               value={inputvalue}
@@ -259,7 +259,7 @@ const AccountsPage = () => {
               />
             </Button>
             <Img
-              src="images/img_ellipse1.png"
+              src="images/Zoya.png"
               className="h-[60px] md:h-[auto] sm:h-[auto] md:ml-[0] sm:ml-[0] ml-[35px] rounded-radius50 w-[60px]"
               alt="EllipseOne"
             />
@@ -411,7 +411,7 @@ const AccountsPage = () => {
                       variant="icbFillGray102"
                     >
                       <Img
-                        src="images/img_alarm.svg"
+                        src="images/img_group326.svg"
                         className="h-[27px]"
                         alt="alarm"
                       />
@@ -463,7 +463,7 @@ const AccountsPage = () => {
                       variant="icbFillGray102"
                     >
                       <Img
-                        src="images/img_group327.svg"
+                        src="images/img_group326.svg"
                         className="h-[25px]"
                         alt="Group327"
                       />
@@ -656,13 +656,13 @@ const AccountsPage = () => {
               </div>
             </div>
             <div className="flex md:flex-col sm:flex-col flex-row gap-[30px] items-center justify-between mt-[24px] w-[100%]">
-              <div className="flex md:flex-1 sm:flex-1 flex-col gap-[20px] items-start justify-start md:w-[100%] sm:w-[100%] w-[auto]">
+              {/* <div className="flex md:flex-1 sm:flex-1 flex-col gap-[20px] items-start justify-start md:w-[100%] sm:w-[100%] w-[auto]">
                 <Text
                   className="text-bluegray_900 text-left w-[auto]"
                   as="h3"
                   variant="h3"
                 >
-                  Debit & Credit Overview
+                  Transaction Overview
                 </Text>
                 <div className="bg-white_A700 flex flex-col items-center justify-end p-[27px] sm:px-[20px] rounded-radius25 w-[100%]">
                   <div className="flex flex-col gap-[27px] items-center justify-start w-[100%]">
@@ -672,14 +672,14 @@ const AccountsPage = () => {
                         variant="body1"
                       >
                         <span className="text-bluegray_801 text-[16px] font-inter">
-                          $7,560
+                          7,560 INR
                         </span>
                         <span className="text-bluegray_400 text-[16px] font-inter">
                           {" "}
                           Debited &{" "}
                         </span>
                         <span className="text-bluegray_801 text-[16px] font-inter">
-                          $5,420
+                          5,420 INR
                         </span>
                         <span className="text-bluegray_400 text-[16px] font-inter">
                           {" "}
@@ -773,14 +773,14 @@ const AccountsPage = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="flex md:flex-1 sm:flex-1 flex-col gap-[20px] items-start justify-start md:w-[100%] sm:w-[100%] w-[auto]">
                 <Text
                   className="text-bluegray_900 text-left w-[auto]"
                   as="h3"
                   variant="h3"
                 >
-                  Invoices Sent
+                  Invoices 
                 </Text>
                 <List
                   className="bg-white_A700 flex-col gap-[21px] grid items-center p-[25px] sm:px-[20px] rounded-radius25 w-[100%]"
@@ -794,7 +794,7 @@ const AccountsPage = () => {
                       variant="icbFillGray102"
                     >
                       <Img
-                        src="images/img_refresh.svg"
+                        src="images/img_volume.svg"
                         className="h-[25px]"
                         alt="refresh"
                       />
@@ -804,7 +804,7 @@ const AccountsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Apple Store
+                        1234
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
@@ -817,7 +817,7 @@ const AccountsPage = () => {
                       className="font-bold ml-[87px] text-indigo_600 text-left w-[auto]"
                       variant="body1"
                     >
-                      $450
+                      450 INR
                     </Text>
                   </div>
                   <div className="flex flex-1 flex-row items-center justify-start w-[100%]">
@@ -828,7 +828,7 @@ const AccountsPage = () => {
                       variant="icbFillGray102"
                     >
                       <Img
-                        src="images/img_group326.svg"
+                        src="images/img_volume.svg"
                         className="h-[25px]"
                         alt="Group934"
                       />
@@ -838,7 +838,7 @@ const AccountsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Michael
+                        7652
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
@@ -851,7 +851,7 @@ const AccountsPage = () => {
                       className="font-bold ml-[102px] text-indigo_600 text-left w-[auto]"
                       variant="body1"
                     >
-                      $160
+                      160 INR
                     </Text>
                   </div>
                   <div className="flex flex-1 flex-row items-center justify-start w-[100%]">
@@ -872,7 +872,7 @@ const AccountsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Playstation
+                        5492
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
@@ -885,7 +885,7 @@ const AccountsPage = () => {
                       className="font-bold ml-[84px] text-indigo_600 text-left w-[auto]"
                       variant="body1"
                     >
-                      $1085
+                      108 INR
                     </Text>
                   </div>
                   <div className="flex flex-1 flex-row items-center justify-start w-[100%]">
@@ -896,7 +896,7 @@ const AccountsPage = () => {
                       variant="icbFillGray102"
                     >
                       <Img
-                        src="images/img_group326.svg"
+                        src="images/img_volume.svg"
                         className="h-[25px]"
                         alt="Group936"
                       />
@@ -906,7 +906,7 @@ const AccountsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        William
+                        4356
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
@@ -919,7 +919,7 @@ const AccountsPage = () => {
                       className="font-bold ml-[102px] text-indigo_600 text-left w-[auto]"
                       variant="body1"
                     >
-                      $90
+                      900 INR
                     </Text>
                   </div>
                 </List>
