@@ -90,7 +90,7 @@ const MainDashboardPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Investments
+                    Funds
                   </Text>
                 </div>
               </div>
@@ -265,7 +265,7 @@ const MainDashboardPage = () => {
                       as="h3"
                       variant="h3"
                     >
-                      My Cards
+                     Hospital cards 
                     </Text>
                     <Text
                       className="common-pointer font-semibold text-bluegray_900 text-left w-[auto]"
@@ -285,21 +285,21 @@ const MainDashboardPage = () => {
                               className="font-lato not-italic text-left text-white_A700 w-[auto]"
                               variant="body5"
                             >
-                              Balance
+                              Smt. Sumitra Chandra
                             </Text>
                             <Text
                               className="font-inter font-normal mt-[4px] not-italic text-left text-white_A700 w-[auto]"
                               as="h4"
                               variant="h4"
                             >
-                              $5,756
+                              56784352722
                             </Text>
                           </div>
-                          <Img
+                          {/* <Img
                             src="images/img_chipcard.png"
                             className="h-[34px] md:h-[auto] sm:h-[auto] object-cover w-[34px]"
                             alt="ChipCard"
-                          />
+                          /> */}
                         </div>
                         <div className="flex flex-row gap-[59px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[2px] md:w-[100%] sm:w-[100%] w-[76%]">
                           <div className="flex flex-col items-start justify-start w-[44%]">
@@ -307,13 +307,13 @@ const MainDashboardPage = () => {
                               className="not-italic text-left text-white_A700_b2 w-[auto]"
                               variant="body5"
                             >
-                              CARD HOLDER
+                              Membership
                             </Text>
                             <Text
                               className="font-normal mt-[4px] not-italic text-left text-white_A700 w-[auto]"
                               variant="body2"
                             >
-                              Eddy Cusuma
+                              Platinium
                             </Text>
                           </div>
                           <div className="flex flex-col items-start justify-start w-[33%]">
@@ -327,7 +327,7 @@ const MainDashboardPage = () => {
                               className="font-normal mt-[4px] not-italic text-left text-white_A700 w-[auto]"
                               variant="body2"
                             >
-                              12/22
+                              12/23
                             </Text>
                           </div>
                         </div>
@@ -336,14 +336,14 @@ const MainDashboardPage = () => {
                         className="font-normal leading-[normal] not-italic p-[0] sm:text-[18px] md:text-[20px] text-[22px] text-left placeholder:text-white_A700 text-white_A700 w-[100%]"
                         wrapClassName="flex w-[100%]"
                         name="Group319"
-                        placeholder="3778 **** **** 1234"
-                        suffix={
-                          <Img
-                            src="images/img_contrast.svg"
-                            className="ml-[35px] my-[auto]"
-                            alt="contrast"
-                          />
-                        }
+                        placeholder="Ruby Hall Hospital"
+                        // suffix={
+                        //   <Img
+                        //     src="images/img_contrast.svg"
+                        //     className="ml-[35px] my-[auto]"
+                        //     alt="contrast"
+                        //   />
+                        // }
                         shape="CustomBorderBL25"
                         size="lg"
                         variant="GradientWhiteA70026WhiteA70026"
@@ -357,21 +357,21 @@ const MainDashboardPage = () => {
                               className="font-lato not-italic text-left text-white_A700 w-[auto]"
                               variant="body5"
                             >
-                              Balance
+                              Smt. Sumitra Chandra 
                             </Text>
                             <Text
                               className="font-inter font-normal mt-[4px] not-italic text-left text-white_A700 w-[auto]"
                               as="h4"
                               variant="h4"
                             >
-                              $5,756
+                              46754352711
                             </Text>
                           </div>
-                          <Img
+                          {/* <Img
                             src="images/img_chipcard.png"
                             className="h-[34px] md:h-[auto] sm:h-[auto] object-cover w-[34px]"
                             alt="ChipCard One"
-                          />
+                          /> */}
                         </div>
                         <div className="flex flex-row gap-[59px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[2px] md:w-[100%] sm:w-[100%] w-[76%]">
                           <div className="flex flex-col items-start justify-start w-[44%]">
@@ -379,13 +379,13 @@ const MainDashboardPage = () => {
                               className="not-italic text-left text-white_A700_b2 w-[auto]"
                               variant="body5"
                             >
-                              CARD HOLDER
+                              Membership
                             </Text>
                             <Text
                               className="font-normal mt-[4px] not-italic text-left text-white_A700 w-[auto]"
                               variant="body2"
                             >
-                              Eddy Cusuma
+                              N.A
                             </Text>
                           </div>
                           <div className="flex flex-col items-start justify-start w-[33%]">
@@ -399,7 +399,7 @@ const MainDashboardPage = () => {
                               className="font-normal mt-[4px] not-italic text-left text-white_A700 w-[auto]"
                               variant="body2"
                             >
-                              12/22
+                              7/25
                             </Text>
                           </div>
                         </div>
@@ -408,14 +408,14 @@ const MainDashboardPage = () => {
                         className="font-normal leading-[normal] not-italic p-[0] sm:text-[18px] md:text-[20px] text-[22px] text-left placeholder:text-white_A700 text-white_A700 w-[100%]"
                         wrapClassName="flex w-[100%]"
                         name="Group319 One"
-                        placeholder="3778 **** **** 1234"
-                        suffix={
-                          <Img
-                            src="images/img_contrast.svg"
-                            className="ml-[35px] my-[auto]"
-                            alt="contrast"
-                          />
-                        }
+                        placeholder="Sasoon Hospital"
+                        // suffix={
+                        //   <Img
+                        //     src="images/img_contrast.svg"
+                        //     className="ml-[35px] my-[auto]"
+                        //     alt="contrast"
+                        //   />
+                        // }
                         shape="CustomBorderBL25"
                         size="lg"
                         variant="GradientWhiteA70026WhiteA70026"
@@ -430,7 +430,7 @@ const MainDashboardPage = () => {
                   as="h3"
                   variant="h3"
                 >
-                  Recent Transaction
+                  Recent Medications
                 </Text>
                 <List
                   className="bg-white_A700 flex-col gap-[10px] grid items-center p-[24px] sm:px-[20px] rounded-radius25 w-[100%]"
@@ -453,7 +453,7 @@ const MainDashboardPage = () => {
                         className="font-medium text-bluegray_600 text-left w-[auto]"
                         variant="body1"
                       >
-                        Deposit from my Card
+                        Asciminib Hydrochloride
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
@@ -466,7 +466,7 @@ const MainDashboardPage = () => {
                       className="font-medium ml-[13px] text-left text-red_700 w-[auto]"
                       variant="body1"
                     >
-                      -$850
+                    3 weeks
                     </Text>
                   </div>
                   <div className="flex flex-1 flex-row items-center justify-start w-[100%]">
@@ -486,7 +486,7 @@ const MainDashboardPage = () => {
                         className="font-medium text-bluegray_600 text-left w-[auto]"
                         variant="body1"
                       >
-                        Deposit Paypal
+                        Busulfex 30 mg
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
@@ -499,7 +499,7 @@ const MainDashboardPage = () => {
                       className="font-medium ml-[46px] text-green_600 text-left w-[auto]"
                       variant="body1"
                     >
-                      +$2,500
+                      15 months
                     </Text>
                   </div>
                   <div className="flex flex-1 flex-row items-center justify-start w-[100%]">
@@ -519,7 +519,7 @@ const MainDashboardPage = () => {
                         className="font-medium text-bluegray_600 text-left w-[auto]"
                         variant="body1"
                       >
-                        Jemi Wilson
+                        chemizithol 500 mg
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
@@ -532,7 +532,7 @@ const MainDashboardPage = () => {
                       className="font-medium ml-[48px] text-green_600 text-left w-[auto]"
                       variant="body1"
                     >
-                      +$5,400
+                      15 days
                     </Text>
                   </div>
                 </List>
@@ -545,7 +545,7 @@ const MainDashboardPage = () => {
                   as="h3"
                   variant="h3"
                 >
-                  Weekly Activity
+                  Prescribed Dosage
                 </Text>
                 <div className="bg-white_A700 flex flex-col gap-[22px] items-end justify-start p-[28px] sm:px-[20px] rounded-radius25 w-[100%]">
                   <div className="flex flex-row gap-[30px] items-center justify-end ml-[auto] md:w-[100%] sm:w-[100%] w-[30%]">
@@ -663,7 +663,7 @@ const MainDashboardPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex md:flex-1 sm:flex-1 flex-col gap-[18px] items-start justify-start md:w-[100%] sm:w-[100%] w-[auto]">
+              {/* <div className="flex md:flex-1 sm:flex-1 flex-col gap-[18px] items-start justify-start md:w-[100%] sm:w-[100%] w-[auto]">
                 <Text
                   className="text-bluegray_900 text-left w-[auto]"
                   as="h3"
@@ -746,7 +746,7 @@ const MainDashboardPage = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="flex md:flex-col sm:flex-col flex-row gap-[30px] items-center justify-between w-[100%]">
               <div className="flex md:flex-1 sm:flex-1 flex-col gap-[20px] items-start justify-start md:w-[100%] sm:w-[100%] w-[auto]">
@@ -755,7 +755,7 @@ const MainDashboardPage = () => {
                   as="h3"
                   variant="h3"
                 >
-                  Quick Transfer
+                  My Doctors
                 </Text>
                 <div className="bg-white_A700 flex flex-col gap-[29px] items-center justify-center p-[25px] sm:px-[20px] rounded-radius25 w-[100%]">
                   <div className="flex sm:flex-col flex-row gap-[33px] items-center justify-between mt-[10px] w-[100%]">
@@ -771,16 +771,16 @@ const MainDashboardPage = () => {
                         />
                         <div className="flex flex-col items-center justify-start w-[100%]">
                           <Text
-                            className="font-bold text-indigo_700 text-left w-[auto]"
+                            className="font-normal not-italic text-bluegray_800 text-left w-[auto]"
                             variant="body1"
                           >
-                            Livia Bator
+                            Dr. Bansal
                           </Text>
                           <Text
-                            className="font-bold mt-[5px] text-bluegray_400 text-left w-[auto]"
+                            className="font-normal mt-[5px] not-italic text-bluegray_400 text-left w-[auto]"
                             variant="body2"
                           >
-                            CEO
+                            Haematologist
                           </Text>
                         </div>
                       </div>
@@ -795,13 +795,13 @@ const MainDashboardPage = () => {
                             className="font-normal not-italic text-bluegray_800 text-left w-[auto]"
                             variant="body1"
                           >
-                            Randy Press
+                            Dr. Vishal
                           </Text>
                           <Text
                             className="font-normal mt-[5px] not-italic text-bluegray_400 text-left w-[auto]"
                             variant="body2"
                           >
-                            Director
+                            Dermatologist
                           </Text>
                         </div>
                       </div>
@@ -816,13 +816,13 @@ const MainDashboardPage = () => {
                             className="font-normal not-italic text-bluegray_800 text-left w-[auto]"
                             variant="body1"
                           >
-                            Workman
+                            Dr. Anjali
                           </Text>
                           <Text
                             className="font-normal mt-[5px] not-italic text-bluegray_400 text-left w-[auto]"
                             variant="body2"
                           >
-                            Designer
+                            Haematologist
                           </Text>
                         </div>
                       </div>
@@ -839,7 +839,7 @@ const MainDashboardPage = () => {
                       />
                     </Button>
                   </div>
-                  <div className="flex sm:flex-col flex-row gap-[27px] items-center justify-between mb-[10px] w-[100%]">
+                  {/* <div className="flex sm:flex-col flex-row gap-[27px] items-center justify-between mb-[10px] w-[100%]">
                     <Text
                       className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body1"
@@ -862,7 +862,7 @@ const MainDashboardPage = () => {
                         Send
                       </Button>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="flex md:flex-1 sm:flex-1 flex-col gap-[20px] items-start justify-start md:w-[100%] sm:w-[100%] w-[auto]">
@@ -871,7 +871,7 @@ const MainDashboardPage = () => {
                   as="h3"
                   variant="h3"
                 >
-                  Balance History
+                  Consultation History
                 </Text>
                 <div className="bg-white_A700 md:h-[205px] h-[276px] sm:h-[349px] p-[20px] relative rounded-radius25 w-[100%]">
                   <Img
@@ -886,7 +886,7 @@ const MainDashboardPage = () => {
                           className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                           variant="body4"
                         >
-                          800
+                          8
                         </Text>
                         <div className="bg-bluegray_400 h-[1px] my-[4px] w-[auto]"></div>
                       </div>
@@ -895,7 +895,7 @@ const MainDashboardPage = () => {
                           className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                           variant="body4"
                         >
-                          600
+                          6
                         </Text>
                         <div className="bg-bluegray_400 h-[1px] my-[4px] w-[auto]"></div>
                       </div>
@@ -904,7 +904,7 @@ const MainDashboardPage = () => {
                           className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                           variant="body4"
                         >
-                          400
+                          4
                         </Text>
                         <div className="bg-bluegray_400 h-[1px] my-[4px] w-[auto]"></div>
                       </div>
@@ -913,7 +913,7 @@ const MainDashboardPage = () => {
                           className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                           variant="body4"
                         >
-                          200
+                          2
                         </Text>
                         <div className="bg-bluegray_400 h-[1px] my-[5px] w-[auto]"></div>
                       </div>

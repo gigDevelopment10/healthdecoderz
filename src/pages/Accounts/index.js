@@ -80,7 +80,7 @@ const AccountsPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Accounts
+                    Report Synopses
                   </Text>
                 </div>
               </div>
@@ -205,7 +205,7 @@ const AccountsPage = () => {
               as="h1"
               variant="h1"
             >
-              Accounts
+              Report Synopsis
             </Text>
             <Input
               value={inputvalue}
@@ -288,14 +288,14 @@ const AccountsPage = () => {
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body1"
                       >
-                        My Balance
+                        74/90
                       </Text>
                       <Text
                         className="font-semibold text-indigo_600 text-left w-[auto]"
                         as="h2"
                         variant="h2"
                       >
-                        $12,750
+                         BP 
                       </Text>
                     </div>
                   </div>
@@ -318,14 +318,14 @@ const AccountsPage = () => {
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body1"
                       >
-                        Income
+                        5.65 t.cells/L 
                       </Text>
                       <Text
                         className="font-semibold text-indigo_600 text-left w-[auto]"
                         as="h2"
                         variant="h2"
                       >
-                        $5,600
+                        RBC 
                       </Text>
                     </div>
                   </div>
@@ -397,7 +397,7 @@ const AccountsPage = () => {
                   as="h3"
                   variant="h3"
                 >
-                  Last Transaction
+                  My Reports
                 </Text>
                 <List
                   className="bg-white_A700 flex-col gap-[10px] grid items-center p-[25px] sm:px-[20px] rounded-radius25 w-[100%]"
@@ -421,26 +421,26 @@ const AccountsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Spotify Subscription
+                        Blood Test
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        25 Jan 2021
+                        25 Dec 2022
                       </Text>
                     </div>
                     <Text
                       className="font-normal md:ml-[0] sm:ml-[0] ml-[31px] not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body1"
                     >
-                      Shopping
+                      Apolo24/7
                     </Text>
                     <Text
                       className="font-normal md:ml-[0] sm:ml-[0] ml-[43px] not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body1"
                     >
-                      1234 ****
+                      1234
                     </Text>
                     <Text
                       className="font-normal md:ml-[0] sm:ml-[0] ml-[45px] not-italic text-bluegray_400 text-left w-[auto]"
@@ -452,7 +452,7 @@ const AccountsPage = () => {
                       className="font-medium md:ml-[0] sm:ml-[0] ml-[70px] text-left text-red_700 w-[auto]"
                       variant="body1"
                     >
-                      -$150
+                      Leukemia
                     </Text>
                   </div>
                   <div className="flex flex-1 md:flex-col sm:flex-col flex-row md:gap-[20px] sm:gap-[20px] items-center justify-start w-[100%]">
@@ -473,38 +473,38 @@ const AccountsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Mobile Service
+                        Blood Test
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        25 Jan 2021
+                        25 Dec 2022
                       </Text>
                     </div>
                     <Text
                       className="font-normal md:ml-[0] sm:ml-[0] ml-[73px] not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body1"
                     >
-                      Service
+                      Apolo24/7
                     </Text>
                     <Text
                       className="font-normal md:ml-[0] sm:ml-[0] ml-[58px] not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body1"
                     >
-                      1234 ****
+                      7651
                     </Text>
                     <Text
                       className="font-normal md:ml-[0] sm:ml-[0] ml-[45px] not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body1"
                     >
-                      Completed
+                      Complete
                     </Text>
                     <Text
-                      className="font-medium md:ml-[0] sm:ml-[0] ml-[46px] text-left text-red_700 w-[auto]"
+                      className="font-medium md:ml-[0] sm:ml-[0] ml-[44px] text-green_600 text-left w-[auto]"
                       variant="body1"
                     >
-                      -$340
+                      Leukemia
                     </Text>
                   </div>
                   <div className="flex flex-1 md:flex-col sm:flex-col flex-row md:gap-[20px] sm:gap-[20px] items-center justify-start w-[100%]">
@@ -525,38 +525,38 @@ const AccountsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Emilly Wilson
+                        Blood Test
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        25 Jan 2021
+                        23 Dec 2022
                       </Text>
                     </div>
                     <Text
                       className="font-normal md:ml-[0] sm:ml-[0] ml-[86px] not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body1"
                     >
-                      Transfer
+                      Apolo24/7
                     </Text>
                     <Text
                       className="font-normal md:ml-[0] sm:ml-[0] ml-[52px] not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body1"
                     >
-                      1234 ****
+                      4563
                     </Text>
                     <Text
                       className="font-normal md:ml-[0] sm:ml-[0] ml-[45px] not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body1"
                     >
-                      Completed
+                      Complete
                     </Text>
                     <Text
                       className="font-medium md:ml-[0] sm:ml-[0] ml-[44px] text-green_600 text-left w-[auto]"
                       variant="body1"
                     >
-                      +$780
+                      Leukemia
                     </Text>
                   </div>
                 </List>
@@ -569,7 +569,7 @@ const AccountsPage = () => {
                       as="h3"
                       variant="h3"
                     >
-                      My Card
+                      Clinic Card
                     </Text>
                     <Text
                       className="common-pointer font-semibold mt-[5px] text-bluegray_900 text-left w-[auto]"
@@ -588,21 +588,21 @@ const AccountsPage = () => {
                             className="not-italic text-left text-white_A700 w-[auto]"
                             variant="body5"
                           >
-                            Balance
+                            Smt. Sumitra Chandra
                           </Text>
                           <Text
                             className="font-normal mt-[4px] not-italic text-left text-white_A700 w-[auto]"
                             as="h4"
                             variant="h4"
                           >
-                            $5,756
+                            23759030474
                           </Text>
                         </div>
-                        <Img
+                        {/* <Img
                           src="images/img_chipcard.png"
                           className="h-[34px] md:h-[auto] sm:h-[auto] object-cover w-[34px]"
                           alt="ChipCard"
-                        />
+                        /> */}
                       </div>
                       <div className="flex flex-row gap-[59px] items-center justify-start md:w-[100%] sm:w-[100%] w-[77%]">
                         <div className="flex flex-col items-start justify-start w-[44%]">
@@ -610,13 +610,13 @@ const AccountsPage = () => {
                             className="not-italic text-left text-white_A700_b2 w-[auto]"
                             variant="body5"
                           >
-                            CARD HOLDER
+                            Membership
                           </Text>
                           <Text
                             className="font-normal mt-[4px] not-italic text-left text-white_A700 w-[auto]"
                             variant="body2"
                           >
-                            Eddy Cusuma
+                            Silver
                           </Text>
                         </div>
                         <div className="flex flex-col items-start justify-start w-[33%]">
@@ -630,7 +630,7 @@ const AccountsPage = () => {
                             className="font-normal mt-[4px] not-italic text-left text-white_A700 w-[auto]"
                             variant="body2"
                           >
-                            12/22
+                            12/23
                           </Text>
                         </div>
                       </div>
@@ -639,14 +639,14 @@ const AccountsPage = () => {
                       className="font-normal leading-[normal] not-italic p-[0] sm:text-[18px] md:text-[20px] text-[22px] text-left placeholder:text-white_A700 text-white_A700 w-[100%]"
                       wrapClassName="flex w-[100%]"
                       name="Group1033"
-                      placeholder="3778 **** **** 1234"
-                      suffix={
-                        <Img
-                          src="images/img_contrast.svg"
-                          className="ml-[35px] my-[auto]"
-                          alt="contrast"
-                        />
-                      }
+                      placeholder="Apollo 24/7"
+                      // suffix={
+                      //   <Img
+                      //     src="images/img_contrast.svg"
+                      //     className="ml-[35px] my-[auto]"
+                      //     alt="contrast"
+                      //   />
+                      // }
                       shape="CustomBorderBL25"
                       size="lg"
                       variant="GradientWhiteA70026WhiteA70026"

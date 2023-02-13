@@ -366,7 +366,7 @@ const ServicesPage = () => {
                 as="h3"
                 variant="h3"
               >
-                Bank Services List
+              Appointment Details 
               </Text>
               <List
                 className="flex-col gap-[20px] grid items-center w-[100%]"
@@ -390,13 +390,13 @@ const ServicesPage = () => {
                       className="font-medium text-bluegray_900 text-left w-[auto]"
                       variant="body1"
                     >
-                      Business loans
+                      Dr. Vijay Ramanan
                     </Text>
                     <Text
                       className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body2"
                     >
-                      It is a long established{" "}
+                      Haematologist{" "}
                     </Text>
                   </div>
                   <div className="flex md:flex-1 sm:flex-1 flex-col gap-[7px] items-start justify-start md:ml-[0] sm:ml-[0] ml-[85px] md:w-[100%] sm:w-[100%] w-[12%]">
@@ -404,13 +404,13 @@ const ServicesPage = () => {
                       className="font-medium text-bluegray_900 text-left w-[auto]"
                       variant="body1"
                     >
-                      Lorem Ipsum
+                      MON9.45 AM
                     </Text>
                     <Text
                       className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                       variant="body2"
                     >
-                      Many publishing
+                      9.30 AM – 11 AM
                     </Text>
                   </div>
                   <div className="flex md:flex-1 sm:flex-1 flex-col gap-[7px] items-start justify-start md:ml-[0] sm:ml-[0] ml-[82px] md:w-[100%] sm:w-[100%] w-[12%]">
