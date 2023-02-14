@@ -12,6 +12,7 @@ import MainDashboard from "pages/MainDashboard";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "pages/Home";
 import NotFound from "pages/NotFound";
+import Dashboard from "Research/Dashboard";
 const ProjectRoutes = () => {
   return (
     <Router>
@@ -31,6 +32,7 @@ const ProjectRoutes = () => {
         />
         <Route path="/settingpagesecurity" element={<SettingPageSecurity />} />
         <Route path="/dhiwise-dashboard" element={<Home />} />
+        <Route path='/dhiwise-reserch' element={<Dashboard />} />
       </Routes>
     </Router>
   );

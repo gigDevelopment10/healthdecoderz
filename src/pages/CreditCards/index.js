@@ -12,8 +12,8 @@ const CreditCardsPage = () => {
   return (
     <>
       <div className="bg-gray_100 flex md:flex-col sm:flex-col flex-row font-inter md:gap-[20px] sm:gap-[20px] items-start mx-[auto] pb-[30px] w-[100%]">
-        <aside className="flex flex-col md:hidden sm:hidden md:px-[20px] sm:px-[20px] w-[250px]">
-          <div className="flex flex-col gap-[50px] items-center justify-start mb-[364px] mt-[30px] w-[100%]">
+      <aside className="flex flex-col md:hidden sm:hidden md:px-[20px] sm:px-[20px] w-[250px]">
+          <div className="bg-white_A700 flex flex-col gap-[50px] items-center justify-start py-[30px] w-[100%]">
             <div className="flex flex-row items-center justify-center md:w-[100%] sm:w-[100%] w-[65%]">
               <Img
                 src="images/img_logo_indigo_600.png"
@@ -28,7 +28,7 @@ const CreditCardsPage = () => {
                 MediSecure
               </Text>
             </div>
-            <div className="flex flex-col items-start justify-start w-[100%]">
+            <div className="flex flex-col items-start justify-start mb-[334px] w-[100%]">
               <div
                 className="common-pointer flex flex-col items-start justify-start p-[17px] w-[100%]"
                 onClick={() => navigate("/")}
@@ -82,7 +82,7 @@ const CreditCardsPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Reports
+                    Accounts
                   </Text>
                 </div>
               </div>
@@ -105,16 +105,18 @@ const CreditCardsPage = () => {
                   </Text>
                 </div>
               </div>
-              <div className="flex flex-row gap-[34px] items-center justify-start md:w-[100%] sm:w-[100%] w-[78%]">
-                <Line className="bg-indigo_600 h-[60px] rounded-bl-[0] rounded-br-[10px] rounded-tl-[0] rounded-tr-[10px] w-[6px]" />
-                <div className="flex flex-row gap-[20px] items-center justify-start w-[80%]">
+              <div
+                className="common-pointer flex flex-col items-start justify-start p-[17px] w-[100%]"
+                onClick={() => navigate("/creditcards")}
+              >
+                <div className="flex flex-row gap-[20px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[23px] md:w-[100%] sm:w-[100%] w-[72%]">
                   <Img
-                    src="images/img_file_1.svg"
+                    src="images/img_file.svg"
                     className="h-[25px] w-[25px]"
                     alt="file"
                   />
                   <Text
-                    className="font-medium text-indigo_600 text-left w-[auto]"
+                    className="font-medium text-bluegray_400 text-left w-[auto]"
                     as="h5"
                     variant="h5"
                   >
@@ -141,18 +143,16 @@ const CreditCardsPage = () => {
                   </Text>
                 </div>
               </div>
-              <div
-                className="common-pointer flex flex-col items-start justify-start p-[17px] w-[100%]"
-                onClick={() => navigate("/services")}
-              >
-                <div className="flex flex-row gap-[20px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[23px] md:w-[100%] sm:w-[100%] w-[56%]">
+              <div className="flex flex-row gap-[34px] items-center justify-start md:w-[100%] sm:w-[100%] w-[64%]">
+                <Line className="bg-indigo_600 h-[60px] rounded-bl-[0] rounded-br-[10px] rounded-tl-[0] rounded-tr-[10px] w-[6px]" />
+                <div className="flex flex-row gap-[20px] items-center justify-start w-[75%]">
                   <Img
-                    src="images/img_service1.svg"
+                    src="images/img_call.svg"
                     className="h-[25px] w-[25px]"
-                    alt="serviceOne"
+                    alt="call"
                   />
                   <Text
-                    className="font-medium text-bluegray_400 text-left w-[auto]"
+                    className="font-medium text-indigo_600 text-left w-[auto]"
                     as="h5"
                     variant="h5"
                   >

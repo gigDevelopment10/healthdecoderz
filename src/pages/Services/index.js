@@ -120,7 +120,7 @@ const ServicesPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Doctors
+                    Doc
                   </Text>
                 </div>
               </div>
