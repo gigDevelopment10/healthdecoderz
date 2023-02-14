@@ -590,7 +590,7 @@ const CreditCardsPage = () => {
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        MBBs, MD
+                        MBBS, MD
                       </Text>
                     </div>
                     <div className="flex md:flex-1 sm:flex-1 flex-col gap-[7px] items-start justify-start md:ml-[0] sm:ml-[0] ml-[43px] md:w-[100%] sm:w-[100%] w-[11%]">
@@ -604,7 +604,7 @@ const CreditCardsPage = () => {
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        3 months ago
+                        3 days ago
                       </Text>
                     </div>
                     <div className="flex md:flex-1 sm:flex-1 flex-col gap-[7px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[44px] md:w-[100%] sm:w-[100%] w-[17%]">
@@ -612,13 +612,13 @@ const CreditCardsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Card Number
+                        Presc ID
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        **** **** 5600
+                        6079 5600
                       </Text>
                     </div>
                     <div className="flex md:flex-1 sm:flex-1 flex-col gap-[7px] items-start justify-start md:ml-[0] sm:ml-[0] ml-[47px] md:w-[100%] sm:w-[100%] w-[16%]">
@@ -626,13 +626,13 @@ const CreditCardsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Namain Card
+                        UID
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        William{" "}
+                        Sumitra{"**001"}
                       </Text>
                     </div>
                     <Text
@@ -660,13 +660,13 @@ const CreditCardsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Card Type
+                        Dr. Mehta
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        Secondary
+                        Dermatologist
                       </Text>
                     </div>
                     <div className="flex md:flex-1 sm:flex-1 flex-col gap-[7px] items-start justify-start md:ml-[0] sm:ml-[0] ml-[43px] md:w-[100%] sm:w-[100%] w-[11%]">
@@ -674,13 +674,13 @@ const CreditCardsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Bank
+                        Jan 23
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        BRC Bank
+                        1 mon Ago
                       </Text>
                     </div>
                     <div className="flex md:flex-1 sm:flex-1 flex-col gap-[7px] items-center justify-start md:ml-[0] sm:ml-[0] ml-[43px] md:w-[100%] sm:w-[100%] w-[17%]">
@@ -688,13 +688,13 @@ const CreditCardsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Card Number
+                        Presc ID
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        **** **** 4300
+                        6549 4300
                       </Text>
                     </div>
                     <div className="flex md:flex-1 sm:flex-1 flex-col gap-[7px] items-start justify-start md:ml-[0] sm:ml-[0] ml-[46px] md:w-[100%] sm:w-[100%] w-[16%]">
@@ -702,13 +702,13 @@ const CreditCardsPage = () => {
                         className="font-medium text-indigo_600 text-left w-[auto]"
                         variant="body1"
                       >
-                        Namain Card
+                        UID
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        Michel
+                        Sumita{"**567"}
                       </Text>
                     </div>
                     <Text
@@ -736,13 +736,13 @@ const CreditCardsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Card Type
+                        Dr. Sanjay
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        Secondary
+                        Pathologist
                       </Text>
                     </div>
                     <div className="flex md:flex-1 sm:flex-1 flex-col gap-[7px] items-start justify-start md:ml-[0] sm:ml-[0] ml-[43px] md:w-[100%] sm:w-[100%] w-[12%]">
@@ -750,7 +750,7 @@ const CreditCardsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Bank
+                        Jan 23
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
@@ -764,13 +764,13 @@ const CreditCardsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Card Number
+                        Presc ID
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        **** **** 7560
+                        5473 7560
                       </Text>
                     </div>
                     <div className="flex md:flex-1 sm:flex-1 flex-col gap-[7px] items-start justify-start md:ml-[0] sm:ml-[0] ml-[48px] md:w-[100%] sm:w-[100%] w-[16%]">
@@ -778,13 +778,13 @@ const CreditCardsPage = () => {
                         className="font-medium text-bluegray_900 text-left w-[auto]"
                         variant="body1"
                       >
-                        Namain Card
+                        UID
                       </Text>
                       <Text
                         className="font-normal not-italic text-bluegray_400 text-left w-[auto]"
                         variant="body2"
                       >
-                        Edward
+                        Sumitra{"**871"}
                       </Text>
                     </div>
                     <Text
@@ -903,7 +903,7 @@ const CreditCardsPage = () => {
                   as="h3"
                   variant="h3"
                 >
-                  Card Setting
+                  Setting
                 </Text>
                 <List
                   className="bg-white_A700 flex-col gap-[20px] grid items-center p-[30px] sm:px-[20px] rounded-radius25 w-[100%]"
