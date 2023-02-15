@@ -409,7 +409,7 @@ const ServicesPage = () => {
                     0.02 (per record)
                 </td>
                 <td class="px-6 py-4 text-right">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Request</a>
+                    <a href="" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Request</a>
                 </td>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -426,7 +426,7 @@ const ServicesPage = () => {
                    0.07 (15 records)
                 </td>
                 <td class="px-6 py-4 text-right">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Request</a>
+                    <a href="" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Request</a>
                 </td>
             </tr>
             <tr class="bg-white dark:bg-gray-800">
@@ -443,7 +443,7 @@ const ServicesPage = () => {
                     0.09 (per record)
                 </td>
                 <td class="px-6 py-4 text-right">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Request</a>
+                    <a href="" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Request</a>
                 </td>
             </tr>
             
